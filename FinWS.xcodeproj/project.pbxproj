@@ -74,9 +74,9 @@
 		7AF651662250F7A000C7DAB9 /* FinWS */ = {
 			isa = PBXGroup;
 			children = (
-				7ADD013E227B8BFB00F87953 /* DataStream.swift */,
 				7AF651672250F7A000C7DAB9 /* AppDelegate.swift */,
 				7AF651692250F7A000C7DAB9 /* ViewController.swift */,
+				7ADD013E227B8BFB00F87953 /* DataStream.swift */,
 				7A687677227CECB40073179D /* HistoryVC.swift */,
 				7AF6516B2250F7A000C7DAB9 /* Main.storyboard */,
 				7AF6516E2250F7A000C7DAB9 /* Assets.xcassets */,

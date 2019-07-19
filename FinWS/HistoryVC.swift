@@ -11,7 +11,6 @@ import UIKit
 class HistoryVC: UIViewController{
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

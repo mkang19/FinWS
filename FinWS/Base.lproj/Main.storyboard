@@ -42,7 +42,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="olF-dO-6su"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Forecast" id="sn4-WM-MBm"/>
+                    <tabBarItem key="tabBarItem" title="Forecast" image="icons8-rain-cloud-30" id="sn4-WM-MBm"/>
                     <connections>
                         <outlet property="myTableView" destination="4rV-Id-qZc" id="ZcZ-2R-xtM"/>
                     </connections>
@@ -121,7 +121,7 @@
                             <outlet property="delegate" destination="KpL-yZ-VuT" id="6gE-0i-90t"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Notifications" id="TI6-oI-KEg"/>
+                    <tabBarItem key="tabBarItem" title="Notifications" image="icons8-notification-30" id="TI6-oI-KEg"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MEo-Yh-RUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -150,7 +150,7 @@
                             <outlet property="delegate" destination="noB-MM-QxZ" id="KPc-hB-TRg"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Settings" id="CZq-Ct-m9E"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="icons8-settings-30" id="CZq-Ct-m9E"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Elm-yg-EIx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -180,7 +180,7 @@
         <scene sceneID="pK4-jx-OeZ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gOx-KR-5Vf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="History" id="25N-c3-Phx"/>
+                    <tabBarItem key="tabBarItem" title="History" image="icons8-time-machine-30" id="25N-c3-Phx"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EtN-Pl-wTz">
                         <rect key="frame" x="0.0" y="20" width="768" height="50"/>
@@ -196,4 +196,10 @@
             <point key="canvasLocation" x="328.98550724637681" y="-727.23214285714278"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-notification-30" width="30" height="30"/>
+        <image name="icons8-rain-cloud-30" width="30" height="30"/>
+        <image name="icons8-settings-30" width="30" height="30"/>
+        <image name="icons8-time-machine-30" width="30" height="30"/>
+    </resources>
 </document>
