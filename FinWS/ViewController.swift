@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var dataStream:DataStream?
     var data:[String] = []
+    var HistoryData:[DataStream] = []
     
     @IBOutlet weak var myTableView: UITableView!
     
@@ -22,6 +23,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let stream = "winddir=225.0&windspeedmph=12.24&humidity=68.33&dewptf=42.54&tempf=47.19&rainin=0.22&dailyrainin=0.57&baromin=29.95&action=updateraw"
         let dataMeasurements = DataStream.init(stream: stream)
+        HistoryData.append(dataMeasurements)
         data = [dataMeasurements.windDirection, dataMeasurements.windSpeed, dataMeasurements.humidity, dataMeasurements.dewpoint, dataMeasurements.temperature, dataMeasurements.rainHour, dataMeasurements.rainDay, dataMeasurements.barometic]
     }
     
@@ -63,6 +65,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
         
     }
+
 
 
 }
